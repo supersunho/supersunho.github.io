@@ -106,7 +106,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "React, React Native developer"
   location         : "South Korea"
-  email            : "supersunho@gmail.com"
+  # email            : "supersunho@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
