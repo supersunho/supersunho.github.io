@@ -20,13 +20,12 @@ AAPT: error: resource android:attr/lStar not found
 
 ## Solution 1
 
-> `compileSdkVersion`과 `targetSdkVersion`를 `31`로 변경한다.
-
-`30`에서 발생되던 오류가 사라진다.
-
+> `compileSdkVersion`과 `targetSdkVersion`를 `31`로 변경 
+  
+   
 ## Solution 2
 
-> `app/build.gradle`에 `androidx.core`버전을 `1.6.0`으로 변경한다.
+> `app/build.gradle`에 `androidx.core`버전을 `1.6.0`으로 고정
 
 ```javascript
 androidx.core:core-ktx:+ ==> androidx.core:core-ktx:1.6.0
