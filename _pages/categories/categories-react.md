@@ -4,10 +4,6 @@ layout: archive
 permalink: categories/react
 author_profile: true
 sidebar_main: true
-toc: true  
-toc_label: "목차"  
-toc_icon: "bars"  
-toc_sticky: true  
 ---
 
 
