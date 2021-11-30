@@ -47,4 +47,5 @@ ext {
 }
 ```
 
-[참고] https://exerror.com/solved-aapt-error-resource-androidattr-lstar-not-found-in-android/
+[참고]    
+<https://exerror.com/solved-aapt-error-resource-androidattr-lstar-not-found-in-android/>
