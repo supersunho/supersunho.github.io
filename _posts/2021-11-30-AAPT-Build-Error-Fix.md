@@ -46,4 +46,5 @@ ext {
     androidXCore = "1.6.0"
 }
 ```
- 
+
+[참고] https://exerror.com/solved-aapt-error-resource-androidattr-lstar-not-found-in-android/
