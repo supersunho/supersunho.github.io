@@ -8,9 +8,7 @@ tags:
   - React Native
   - Android
 ---
-최근 Android 정책으로 인해 `targetSdkVersion`를 `30`으로 변경해서  
-기존 앱을 빌드하는 과정에서 Build Error가 발생되었습니다.  
-해결하는데 시간을 오래 소비했고 너무 허무하게 해결되어 방법을 공유드립니다.
+최근 Android 정책으로 인해 `targetSdkVersion`를 `30`으로 변경해서 기존 앱을 빌드하는 과정에서 Build Error가 발생되었습니다. 해결하는데 시간을 오래 소비했고 너무 허무하게 해결되어 방법을 공유드립니다.
 
 ## Error Message
 
