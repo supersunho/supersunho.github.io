@@ -12,10 +12,10 @@ toc: true
 toc_label: "목차"  
 toc_icon: "bars"  
 toc_sticky: true  
+doc_index: 002
 ---
 
-React Native에 새로운 모듈 ([react-native-photo-editor](https://github.com/baronha/react-native-photo-editor)) 을 `npm install` 후 `pod install` 을 통해   
-iOS에 모듈을 설치를 하였고 동작확인을 위해 `npm run ios`를 실행하는데 오류가 발생되었습니다
+React Native에 새로운 모듈 ([react-native-photo-editor](https://github.com/baronha/react-native-photo-editor)) 을 `npm install` 후 `pod install` 을 통해 iOS에 모듈을 설치를 하였고 동작확인을 위해 `npm run ios`를 실행하는데 오류가 발생되었습니다
 
 ## Error Message
 ```
@@ -32,10 +32,9 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 ---
 
 ## 해결한 방법 
-`Xcode > Build Settings > Library Search Path`에 Swift 버전 변경    
-`"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)"`을  
-`"$(TOOLCHAIN_DIR)/usr/lib/swift-5.3/$(PLATFORM_NAME)"`으로 변경하고   
-빌드 오류가 해결되고 앱에서 실행되었습니다 
+`Xcode > Build Settings > Library Search Path`에 Swift 버전 변경
+## How to
+`"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)"`을 `"$(TOOLCHAIN_DIR)/usr/lib/swift-5.3/$(PLATFORM_NAME)"`으로 변경하고 빌드 오류가 해결되고 앱에서 실행되었습니다 
 
 ---
 이하 시도해봤던 방법들을 공유합니다.
@@ -45,8 +44,7 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
 ## Result #1
 `Build error`
-
----
+ 
 
 ## Solution #2
 `Development Target`을 변경
@@ -60,7 +58,7 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
     end
   end
 ```
-[출처] - https://stackoverflow.com/questions/69321998/undefined-symbols-for-architecture-x86-64-xcode-simulator 
+[출처] - <https://stackoverflow.com/questions/69321998/undefined-symbols-for-architecture-x86-64-xcode-simulator>
 
 ## Result #2
 `Build error`
