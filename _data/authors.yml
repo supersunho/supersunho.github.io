@@ -1,0 +1,11 @@
+Seonho Kim:
+    name: "Seonho Kim"
+    bio: "개발을 좋아하는 한 남자가 있습니다"
+    avatar: ""
+    links:
+        - label: "Email"
+          icon: "fas fa-fw fa-envelope-square"
+          url: "mailto:supersunho@gmail.com"
+        - label: "Website"
+          icon: "fas fa-fw fa-link"
+          url: "https://github.com/supersunho"
