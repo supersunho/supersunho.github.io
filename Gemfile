@@ -10,3 +10,4 @@ group :jekyll_plugins do
   gem "jekyll-algolia"
   gem "github-pages"
 end
+gem "faraday-retry", "~> 2.2"
