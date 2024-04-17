@@ -33,8 +33,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install Ruby
-        run: apt install -y build-essential ruby-full ruby-dev openssl && ruby -v && gem install bundler
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
