@@ -29,3 +29,8 @@ assets/js/dist
 # Frontmatter
 .frontmatter
 frontmatter.json
+
+_sample_posts
+_sample_posts/*
+
+_config-local.yml
