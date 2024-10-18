@@ -34,3 +34,7 @@ _sample_posts
 _sample_posts/*
 
 _config-local.yml
+/_posts/.makemd
+/_posts/.obsidian
+/_posts/.space
+/_posts/Spaces
