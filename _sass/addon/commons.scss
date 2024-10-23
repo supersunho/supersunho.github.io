@@ -516,7 +516,7 @@ main {
   }
 
   blockquote {
-    background-color: #292a2d;
+    background-color: var(--blockquote-border-color);
     border-radius: 8px;
   }
 } /* .content */
