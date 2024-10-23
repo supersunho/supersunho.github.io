@@ -67,6 +67,10 @@ Moon
 ## Block Quote
 
 > This line shows the _block quote_.
+> *italic*
+> **bold**
+> ***italic+bold***
+
 
 ## Prompts
 
