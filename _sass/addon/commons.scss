@@ -497,14 +497,19 @@ main {
 
   /* modified by shk */
   h2 {
-    border-left: 10px solid rgb(205 48 97);
+    border-left: 10px solid #f26d6d;
     padding-left: 10px;
   }
   h3 {
-    border-left: 10px solid rgb(239 255 132);
+    border-left: 10px solid #d99d8f;
     padding-left: 10px;
   }
-  strong {
+  h4 {
+    border-left: 10px solid #6c6e8c;
+    padding-left: 10px;
+  }
+  strong,
+  strong[data-theme='dark'] {
     color: rgb(239 255 132);
   }
 } /* .content */
