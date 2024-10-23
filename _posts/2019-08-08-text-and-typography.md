@@ -118,7 +118,7 @@ This is a common code snippet, without syntax highlight and line number.
 ```
 
 ```text
-This is a common code snippet, without syntax highlight and line number.
+This is a **common code snippet**, without syntax highlight and line number.
 ```
 {: file='공지'}
 
