@@ -99,6 +99,7 @@ code {
   -ms-hyphens: none;
   hyphens: none;
   color: var(--code-color);
+  font-family: $font-family-base;
 
   &.highlighter-rouge {
     font-size: $code-font-size;
