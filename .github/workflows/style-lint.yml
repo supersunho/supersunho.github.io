@@ -20,4 +20,4 @@ jobs:
         with:
           node-version: lts/*
       - run: npm i
-      - run: npm run lint:fix:scss
+      - run: npm test
