@@ -497,19 +497,19 @@ main {
 
   /* modified by shk */
   h2 {
-    border-left: 10px solid #f26d6d;
+    border-left: 10px solid var(--shk-h2-border-color);
     padding-left: 10px;
   }
   h3 {
-    border-left: 10px solid #d99d8f;
+    border-left: 10px solid var(--shk-h3-border-color);
     padding-left: 10px;
   }
   h4 {
-    border-left: 10px solid #6c6e8c;
+    border-left: 10px solid var(--shk-h4-border-color);
     padding-left: 10px;
   }
   strong {
-    color: #79f297;
+    color: var(--shk-strong-color);
   }
   blockquote {
     background-color: rgb(41 42 45);
