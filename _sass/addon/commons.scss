@@ -380,8 +380,12 @@ main {
   h1 {
     margin-top: 2rem;
   }
-  .content h1 {
+  .content h2 {
     border-left: 10px solid rgb(205 48 97);
+    padding-left: 10px;
+  }
+  .content h3 {
+    border-left: 10px solid rgb(239 255 132);
     padding-left: 10px;
   }
   p {
