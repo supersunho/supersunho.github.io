@@ -117,6 +117,11 @@ Here is the `/path/to/the/file.extend`{: .filepath}.
 This is a common code snippet, without syntax highlight and line number.
 ```
 
+```text
+This is a common code snippet, without syntax highlight and line number.
+```
+{: file='공지'}
+
 ### Specific Language
 
 ```bash
