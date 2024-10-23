@@ -379,10 +379,11 @@ main {
 
   h1 {
     margin-top: 2rem;
+  }
+  .content h1 {
     border-left: 10px solid rgb(205 48 97);
     padding-left: 10px;
   }
-
   p {
     > a.popup {
       &:not(.normal):not(.left):not(.right) {
