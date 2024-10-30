@@ -6,15 +6,23 @@ categories:
   - Dev
   - Javascript
 tags:
-  - javascript
-date: 2024-10-28T09:31:34.879Z
+  - Audio
+  - DynamicsCompressorNode
+  - Javascript
+  - Video
+  - Sound
+date: 2024-10-30T04:32:55.556Z
 toc: true
 comments: true
 pin: false
 math: false
 mermaid: false
 render_with_liquid: false
+image:
+  path: https://i.imgur.com/vfiplwB.png
 ---
+![](https://i.imgur.com/vfiplwB.png)
+
 안녕하세요.
 
 오늘은 **브라우저에서 재생 중인 Video의 소리를 압축해 음질을 풍부하게 만드는 방법**에 대해 알아보도록 하겠습니다.
@@ -62,7 +70,7 @@ compressor.release.setValueAtTime(0.25, audioCtx.currentTime);
 ```
 
 ## 오디오 소스 연결
-현재 재생중인 Video의 Element를 Compressor에 연결하고, Compressor를 출력 대상(일반적으로 audioCtx.destination)에 연결합니다.
+현재 재생중인 **Video를 Compressor에 연결**하고, **Compressor를 출력 대상에 연결**합니다.
 ```javascript
 const source = audioCtx.createMediaElementSource(audioElement);
 source.connect(compressor); // Compressor 연결
