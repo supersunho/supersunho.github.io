@@ -12,17 +12,17 @@ importers:
         specifier: ^2.11.8
         version: 2.11.8
       bootstrap:
-        specifier: ^5.3.3
-        version: 5.3.3(@popperjs/core@2.11.8)
+        specifier: ^5.3.5
+        version: 5.3.5(@popperjs/core@2.11.8)
     devDependencies:
       '@babel/core':
-        specifier: ^7.25.8
+        specifier: ^7.26.0
         version: 7.26.9
       '@babel/plugin-transform-class-properties':
-        specifier: ^7.25.7
+        specifier: ^7.25.9
         version: 7.25.9(@babel/core@7.26.9)
       '@babel/preset-env':
-        specifier: ^7.25.8
+        specifier: ^7.26.0
         version: 7.26.9(@babel/core@7.26.9)
       '@commitlint/cli':
         specifier: ^19.5.0
@@ -61,10 +61,10 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       rollup:
-        specifier: ^4.24.0
+        specifier: ^4.24.2
         version: 4.34.8
       semantic-release:
-        specifier: ^24.1.2
+        specifier: ^24.2.0
         version: 24.2.3(typescript@5.7.3)
       stylelint:
         specifier: ^16.10.0
@@ -1080,8 +1080,8 @@ packages:
   before-after-hook@3.0.2:
     resolution: {integrity: sha512-Nik3Sc0ncrMK4UUdXQmAnRtzmNQTAAXmXIopizwZ1W1t8QmfJj+zL4OA2I7XPTPW5z5TDqv4hRo/JzouDJnX3A==}
 
-  bootstrap@5.3.3:
-    resolution: {integrity: sha512-8HLCdWgyoMguSO9o+aH+iuZ+aht+mzW0u3HIMzVu7Srrpv7EBBxTnrFlSCskwdY1+EOFQSm7uMJhNQHkdPcmjg==}
+  bootstrap@5.3.5:
+    resolution: {integrity: sha512-ct1CHKtiobRimyGzmsSldEtM03E8fcEX4Tb3dGXz1V8faRwM50+vfHwTzOxB3IlKO7m+9vTH3s/3C6T2EAPeTA==}
     peerDependencies:
       '@popperjs/core': ^2.11.8
 
@@ -3914,7 +3914,7 @@ snapshots:
 
   before-after-hook@3.0.2: {}
 
-  bootstrap@5.3.3(@popperjs/core@2.11.8):
+  bootstrap@5.3.5(@popperjs/core@2.11.8):
     dependencies:
       '@popperjs/core': 2.11.8
 
